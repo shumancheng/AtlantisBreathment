@@ -5,12 +5,15 @@ using UnityEngine.UI;
 
 public class CameraScript : MonoBehaviour
 {
-
+    //Variablen
     int currentCamIndex = 0;
-
     WebCamTexture tex;
-
     public RawImage display;
+    public Text counter;
+    public Text countDown;
+    private Slider slider;
+    private int c = 0;
+
 
     public void SwapCam_Clicked()
     {
@@ -43,6 +46,26 @@ public class CameraScript : MonoBehaviour
 
     private void Start()
     {
+      
         StartStopCam_Clicked();
+        //counter.text = "Anzahl: 0";
     }
+
+
+
+    public void Awake()
+    {
+        slider = gameObject.GetComponent<Slider>();
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            c++;
+            slider.value = slider.value + 0.0625F; // 1/16 => you have to do 16 repetitions to fill the bar
+        }
+        counter.text = "Count: "+ c;
+    }
+
 }
