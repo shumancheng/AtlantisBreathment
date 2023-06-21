@@ -4,5 +4,41 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomePage.unity
+    guid: aa841c0676d101e40967199e2c4cea36
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Inventory.unity
+    guid: 8fe9fb01715df214e9bb64d6a146cf2c
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_1.unity
+    guid: cf3047575bc0467479f0405335d067dd
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_1-1.unity
+    guid: a2a6f151bb3746b41bd4d8a3a1eb6d9c
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_1-2.unity
+    guid: 45deb62f285af1348a26cc3f020c657c
+  - enabled: 1
+    path: Assets/Scenes/Exercise/Exercise_1.unity
+    guid: 790d9abc13ba6e04094f9692c1f95c45
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_2.unity
+    guid: 1db13c1c0e3dacb48920566689160f71
+  - enabled: 1
+    path: Assets/Scenes/Exercise/Exercise_2.unity
+    guid: 4e49947777ce1354e96f8387814c6c0b
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_3.unity
+    guid: 642b3d6b47cd2864fb53940502112624
+  - enabled: 1
+    path: Assets/Scenes/Exercise/Exercise_3.unity
+    guid: d61ef5615820c604ab7b744d85750965
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_4.unity
+    guid: d8c3e16cf3104e047a314413cea6edfc
   m_configObjects: {}
