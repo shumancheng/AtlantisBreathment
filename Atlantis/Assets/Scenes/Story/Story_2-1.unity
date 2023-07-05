@@ -566,7 +566,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113213896}
   m_LocalRotation: {x: 0.10126791, y: 0.00697757, z: -0.06838406, w: 0.99248165}
-  m_LocalPosition: {x: 0, y: 0, z: -11}
+  m_LocalPosition: {x: 0, y: 0, z: -18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -576,8 +576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 11.652, y: 0, z: -7.883}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282, y: 404}
-  m_SizeDelta: {x: 401.928, y: 362.316}
+  m_AnchoredPosition: {x: -269, y: 368}
+  m_SizeDelta: {x: 325.207, y: 279.635}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1113213898
 MonoBehaviour:
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cbeb1ea91b317a44b9052e92ea42c4aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd7d5aba1473bb345b911ca949ee11db, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -855,7 +855,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671953400}
   m_LocalRotation: {x: -0, y: -0.0000000018626449, z: 0.06697657, w: 0.9977545}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -864,7 +864,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 7.681}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: 6}
+  m_AnchoredPosition: {x: 22, y: -36}
   m_SizeDelta: {x: 329.079, y: 234.666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671953402
@@ -887,7 +887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: But I lost my golden microphone after I left my submarine.
+  m_text: "That\u2019s great! Let\u2019s go!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -914,8 +914,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Story Part 1
+  m_text: Story Part 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1503,7 +1503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81, y: 273}
+  m_AnchoredPosition: {x: -92, y: 285}
   m_SizeDelta: {x: 67.053, y: 71.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074445983
@@ -1551,7 +1551,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2074445986}
-        m_TargetAssemblyTypeName: ToStory1_2, Assembly-CSharp
+        m_TargetAssemblyTypeName: ToStory2_2, Assembly-CSharp
         m_MethodName: changeScene
         m_Mode: 1
         m_Arguments:
@@ -1609,6 +1609,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2074445981}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7835365a692cee74d9c8a6e0b98df3f5, type: 3}
+  m_Script: {fileID: 11500000, guid: ff9ea82967ec63c45a0d30710aac67ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
