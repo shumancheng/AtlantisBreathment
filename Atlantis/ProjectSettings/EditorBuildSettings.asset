@@ -24,11 +24,32 @@ EditorBuildSettings:
     path: Assets/Scenes/Story/Story_1-2.unity
     guid: 45deb62f285af1348a26cc3f020c657c
   - enabled: 1
+    path: Assets/Scenes/Story/Story_1-3.unity
+    guid: 1deea597c0ea3a1418157c9364a27cda
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_1-4.unity
+    guid: 96cb87a6903cfae43a0f3cfe66261ba3
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_1-5.unity
+    guid: 647e072d375c8e14e9c9c155e66ff3f4
+  - enabled: 1
     path: Assets/Scenes/Exercise/Exercise_1.unity
     guid: 790d9abc13ba6e04094f9692c1f95c45
   - enabled: 1
     path: Assets/Scenes/Story/Story_2.unity
     guid: 1db13c1c0e3dacb48920566689160f71
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_2-1.unity
+    guid: 59146fb1442baa84aa53848350c4df67
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_2-2.unity
+    guid: 55516346c5319b4459fd4b5c62d0d6fe
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_2-3.unity
+    guid: 4d20ec3cac364fa41bd3b4f82ae4f04f
+  - enabled: 1
+    path: Assets/Scenes/Story/Story_2-4.unity
+    guid: 27485e476d3766241a751e56b777da44
   - enabled: 1
     path: Assets/Scenes/Exercise/Exercise_2.unity
     guid: 4e49947777ce1354e96f8387814c6c0b
