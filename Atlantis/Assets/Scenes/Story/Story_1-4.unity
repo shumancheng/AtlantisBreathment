@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 1028215556}
   - component: {fileID: 1028215559}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: Next_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1116,7 +1116,7 @@ GameObject:
   - component: {fileID: 1508928525}
   - component: {fileID: 1508928524}
   m_Layer: 5
-  m_Name: Elvis
+  m_Name: story
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
