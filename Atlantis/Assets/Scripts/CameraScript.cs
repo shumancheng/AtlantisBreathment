@@ -25,7 +25,7 @@ public class CameraScript : MonoBehaviour
     }
 
 
-    public void StartStopCam_Clicked()
+    public void StartStopCam_Clicked() 
     {
         // if i have a camera, i ll switch it off
         if (tex != null)
@@ -48,7 +48,7 @@ public class CameraScript : MonoBehaviour
     {
       
         StartStopCam_Clicked();
-        //counter.text = "Anzahl: 0";
+        counter.text = "Anzahl: 0";
     }
 
 
