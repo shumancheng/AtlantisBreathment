@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour
     //contains the exact order of screens presented => Stoory, Exercise, inventory, Homescreen
     static string[] story_line = new string[] { 
         "HomePage", 
-        "HomePage", 
         "Story_1", 
         "Story_1-1", 
         "Story_1-2", 
@@ -33,16 +32,25 @@ public class GameManager : MonoBehaviour
         "Story_1-4",
         "Story_1-5",
         "Exercise_1",
-        "Exercise_2",
         "Story_2",
         "Story_2-1",
         "Story_2-2",
         "Story_2-3",
         "Story_2-4",
-        "Exercise_3",
-        "HomePage",
+        "Exercise_1",
         "Story_3",
+        "Story_3-1",
+        "HomePage",
         "Story_4",
+        "Story_4-1",
+        "Story_4-2",
+        "Story_4-3",
+        "Story_4-4",
+        "Story_4-5",
+        "Story_4-6",
+        "Story_4-7",
+        "Story_4-8",
+        "HomePage"
     };
     static int indexCurrentScene;
 

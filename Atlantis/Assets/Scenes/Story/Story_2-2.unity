@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -553,7 +553,6 @@ GameObject:
   - component: {fileID: 641812769}
   - component: {fileID: 641812768}
   - component: {fileID: 641812767}
-  - component: {fileID: 641812770}
   m_Layer: 5
   m_Name: next
   m_TagString: Untagged
@@ -626,10 +625,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 641812770}
-        m_TargetAssemblyTypeName: ToStory2_3, Assembly-CSharp
-        m_MethodName: changeScene
-        m_Mode: 1
+      - m_Target: {fileID: 1121611239}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -676,18 +675,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641812765}
   m_CullTransparentMesh: 1
---- !u!114 &641812770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641812765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83dc96094dbe27c47ac4d148b444b27e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &682787718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1171,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113213896}
   m_CullTransparentMesh: 1
+--- !u!1001 &1121611238
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.664833
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.705208
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -29.810764
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313902956891635888, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562771523089323626, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+--- !u!114 &1121611239 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6589454762974479795, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+  m_PrefabInstance: {fileID: 1121611238}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1a822e85b4f8a4e813fa1d6727fbad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1508928522
 GameObject:
   m_ObjectHideFlags: 0
