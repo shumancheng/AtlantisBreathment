@@ -87,7 +87,6 @@ public class ProgressBar : MonoBehaviour
             particleSys.Stop();
             if (startProgress)
             {
-                Debug.Log("Exercise finished");
                 GameManager.Play();
             }
 

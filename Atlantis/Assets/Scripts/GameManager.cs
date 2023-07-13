@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         "Story_1-1", 
         "Story_1-2", 
         "Story_1-3",
-        "Inventory",
+        "Inventory 1",
         "Story_1-4",
         "Story_1-5",
         "Exercise_1",
@@ -88,5 +88,16 @@ public class GameManager : MonoBehaviour
 
         //SaveSystem.SaveGame(indexCurrentScene);
         SaveSystem.SaveGame(0);
+    }
+
+    public static int getSceneIndex()
+    {
+        return indexCurrentScene;
+    }
+
+
+    public static void goToMap()
+    {
+        SceneManager.LoadScene("Map");
     }
 }

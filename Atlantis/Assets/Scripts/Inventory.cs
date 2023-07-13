@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Inventory : MonoBehaviour
 {
+    public GameManager gm;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,14 @@ public class Inventory : MonoBehaviour
 
     public void changeScene()
     {
-        SceneManager.LoadScene(sceneName: "Inventory");
+        if (GameManager.getSceneIndex() <= 5)
+        {
+            SceneManager.LoadScene(sceneName: "Inventory");
+        }
+        else
+        {
+            SceneManager.LoadScene(sceneName: "Inventory 1");
+        }
+        
     }
 }
