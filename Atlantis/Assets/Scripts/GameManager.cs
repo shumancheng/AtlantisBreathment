@@ -7,6 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public AudioSource audioSource;
+    public AudioClip buttonClickSound;
+
     private void Awake()
     {
         if (instance == null)
@@ -18,6 +21,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -75,6 +79,10 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(story_line[indexCurrentScene]);
             indexCurrentScene++;
         }
+        instance.audioSource.PlayOneShot(instance.buttonClickSound);
+
+
+
     }
 
     // Update is called once per frame
