@@ -52,6 +52,7 @@ public class ProgressBar : MonoBehaviour
     private Slider slider;
     private ParticleSystem particleSys;
     private bool startProgress;
+    public GameManager gameManager;
 
     public float FillSpeed = 0.5f;
     private float targetProgress = 0;
@@ -79,10 +80,16 @@ public class ProgressBar : MonoBehaviour
             slider.value += FillSpeed * Time.deltaTime;
             if (!particleSys.isPlaying)
                 particleSys.Play();
+                
         }
         else
         {
             particleSys.Stop();
+            if (startProgress)
+            {
+                GameManager.Play();
+            }
+
         }
     }
 
