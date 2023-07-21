@@ -27,7 +27,7 @@ public class CameraScript : MonoBehaviour
 
     public void StartStopCam_Clicked() 
     {
-        // if i have a camera, i ll switch it off
+        //if i have a camera, i ll switch it off
         if (tex != null)
         {
             display.texture = null;
@@ -63,7 +63,6 @@ public class CameraScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             c++;
-            slider.value = slider.value + 0.0625F; // 1/16 => you have to do 16 repetitions to fill the bar
         }
         counter.text = "Count: "+ c;
     }
