@@ -15,19 +15,19 @@ public class CameraScript : MonoBehaviour
     private int c = 0;
 
 
-    public void SwapCam_Clicked()
-    {
-        if (WebCamTexture.devices.Length > 0)
-        {
-            currentCamIndex += 1;
-            currentCamIndex %= WebCamTexture.devices.Length;
-        }
-    }
+    //public void SwapCam_Clicked()
+    //{
+    //    if (WebCamTexture.devices.Length > 0)
+    //    {
+    //        currentCamIndex += 1;
+    //        currentCamIndex %= WebCamTexture.devices.Length;
+    //    }
+    //}
 
 
     public void StartStopCam_Clicked() 
     {
-        // if i have a camera, i ll switch it off
+        //if i have a camera, i ll switch it off
         if (tex != null)
         {
             display.texture = null;

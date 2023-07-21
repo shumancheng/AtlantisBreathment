@@ -54,7 +54,7 @@ public class ProgressBar : MonoBehaviour
     private bool startProgress;
     public GameManager gameManager;
 
-    public float FillSpeed = 0.5f;
+    public float FillSpeed = 0.05f;
     private float targetProgress = 0;
 
     private void Awake()
@@ -101,6 +101,9 @@ public class ProgressBar : MonoBehaviour
     IEnumerator DelayProgressBar()
     {
         yield return new WaitForSeconds(5f);
+        GameObject counterObject = GameObject.Find("Timer");
+        counterObject.SetActive(false);
+        //GameObject.Find("Timer").GetComponent<Renderer>().enabled = false;
         startProgress = true;
         targetProgress = 1f;
     }

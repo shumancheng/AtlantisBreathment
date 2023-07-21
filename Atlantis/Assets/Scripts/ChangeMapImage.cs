@@ -16,9 +16,13 @@ public class ChangeMapImage : MonoBehaviour
         img = this.gameObject.GetComponent<Image>();
         spriteArray = Resources.LoadAll<Sprite>("");
 
-        if (GameManager.getSceneIndex() > -1 && GameManager.getSceneIndex() < 6)
+        if (GameManager.getSceneIndex() > -1 && GameManager.getSceneIndex() < 25)
         {
             img.sprite = spriteArray[0];
+        }
+        else 
+        {
+            img.sprite = spriteArray[1];
         }
 
     }
