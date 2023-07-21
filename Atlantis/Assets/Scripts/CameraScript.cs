@@ -15,14 +15,14 @@ public class CameraScript : MonoBehaviour
     private int c = 0;
 
 
-    //public void SwapCam_Clicked()
-    //{
-    //    if (WebCamTexture.devices.Length > 0)
-    //    {
-    //        currentCamIndex += 1;
-    //        currentCamIndex %= WebCamTexture.devices.Length;
-    //    }
-    //}
+    public void SwapCam_Clicked()
+    {
+        if (WebCamTexture.devices.Length > 0)
+        {
+            currentCamIndex += 1;
+            currentCamIndex %= WebCamTexture.devices.Length;
+        }
+    }
 
 
     public void StartStopCam_Clicked() 
@@ -63,7 +63,6 @@ public class CameraScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             c++;
-            slider.value = slider.value + 0.0625F; // 1/16 => you have to do 16 repetitions to fill the bar
         }
         counter.text = "Count: "+ c;
     }
