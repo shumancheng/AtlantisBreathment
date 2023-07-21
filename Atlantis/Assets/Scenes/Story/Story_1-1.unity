@@ -627,6 +627,10 @@ PrefabInstance:
       propertyPath: buttonClickSound
       value: 
       objectReference: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
+    - target: {fileID: 6589454762974479795, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: switchClickSound
+      value: 
+      objectReference: {fileID: 8300000, guid: abdda29199974e54f8387312b8d05b1f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
 --- !u!114 &1006576150 stripped

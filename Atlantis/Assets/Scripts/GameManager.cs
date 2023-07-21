@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip buttonClickSound;
+    public AudioClip switchClickSound;
 
     private void Awake()
     {
@@ -79,10 +80,16 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(story_line[indexCurrentScene]);
             indexCurrentScene++;
         }
-        instance.audioSource.PlayOneShot(instance.buttonClickSound);
+        
 
-
-
+        if (sceneName == "Story_1-4")
+        {
+            instance.audioSource.PlayOneShot(instance.switchClickSound);
+        }
+        else
+        {
+            instance.audioSource.PlayOneShot(instance.buttonClickSound);
+        }
     }
 
     // Update is called once per frame
