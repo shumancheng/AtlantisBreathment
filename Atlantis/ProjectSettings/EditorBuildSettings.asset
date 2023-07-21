@@ -25,7 +25,7 @@ EditorBuildSettings:
     guid: 4e49947777ce1354e96f8387814c6c0b
   - enabled: 0
     path: Assets/Scenes/Exercise/Exercise_3.unity
-    guid: d61ef5615820c604ab7b744d85750965
+    guid: f736c25b6d4763841aaf51022c3cf93b
   - enabled: 1
     path: Assets/Scenes/Story/Story_1.unity
     guid: cf3047575bc0467479f0405335d067dd
