@@ -21,13 +21,13 @@ public class Inventory : MonoBehaviour
 
     public void changeScene()
     {
-        if (GameManager.getSceneIndex() <= 5)
+        if (GameManager.getSceneIndex() <= 25)
         {
             SceneManager.LoadScene(sceneName: "Inventory");
         }
         else
         {
-            SceneManager.LoadScene(sceneName: "Inventory 1");
+            SceneManager.LoadScene(sceneName: "Inventory 2");
         }
         
     }
