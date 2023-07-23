@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public AudioClip buttonClickSound;
     public AudioClip switchClickSound;
 
+
+
     private void Awake()
     {
         if (instance == null)
@@ -90,7 +92,9 @@ public class GameManager : MonoBehaviour
         {
             instance.audioSource.PlayOneShot(instance.buttonClickSound);
         }
+        
     }
+  
 
     // Update is called once per frame
     void Update()

@@ -657,7 +657,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6af62509f23ed4fa660449c7a55055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 80e397195ea2940b69ee7bdbded856a5, type: 3}
 --- !u!114 &534098513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2146,6 +2145,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1691009530}
+    - target: {fileID: 6589454762974479795, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
+      propertyPath: doorClickSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 6cc272a5cad88ac4686f85bb3a12a555, type: 3}
     - target: {fileID: 6589454762974479795, guid: 61bcd5c9c98ff5443888116e39ba181c, type: 3}
       propertyPath: buttonClickSound
       value: 

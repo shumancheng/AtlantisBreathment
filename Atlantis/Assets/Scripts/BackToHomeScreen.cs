@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class BackToHomeScreen : MonoBehaviour
 {
+    //public AudioSource audioSource;
+    //public AudioClip quitClickSound;
 
     // Start is called before the first frame update
     void Start()
@@ -12,7 +14,7 @@ public class BackToHomeScreen : MonoBehaviour
   
     }
 
-    // Update is called once per frame
+    //Update is called once per frame
     void Update()
     {
         
@@ -20,6 +22,8 @@ public class BackToHomeScreen : MonoBehaviour
 
     public void changeScene()
     {
+        //this.audioSource.PlayOneShot(this.quitClickSound);
+    
         SceneManager.LoadScene(sceneName: "HomePage");
     }
 } 
