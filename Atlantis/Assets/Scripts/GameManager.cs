@@ -7,6 +7,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public AudioSource audioSource;
+    public AudioClip buttonClickSound;
+    public AudioClip switchClickSound;
+
+
+
     private void Awake()
     {
         if (instance == null)
@@ -18,6 +24,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -74,7 +81,19 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(story_line[indexCurrentScene]);
             indexCurrentScene++;
         }
+        
+
+        if (sceneName == "Story_1-4")
+        {
+            instance.audioSource.PlayOneShot(instance.switchClickSound);
+        }
+        else
+        {
+            instance.audioSource.PlayOneShot(instance.buttonClickSound);
+        }
+        
     }
+  
 
     // Update is called once per frame
     void Update()
